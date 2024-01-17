@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "cohort": 67
+    },
+    {
+      "id": 2,
+      "fullName": "Eva Johnson",
+      "email": "evajohnson@gmail.com",
+      "cohort": 68
+    },
+    {
+      "id": 3,
+      "fullName": "Alex Smith",
+      "email": "alexsmith@example.com",
+      "cohort": 67
+    },
+    {
+      "id": 4,
+      "fullName": "Sophie Miller",
+      "email": "sophiemiller@example.com",
+      "cohort": 68
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "topicId": 2,
+      "userId": 1,
+      "title": "How to Push to Github",
+      "body": "On GitHub.com, navigate to the main page of the repository. Above the list of files, select the Add file dropdown menu and click Upload files. Alternatively, you can drag and drop files into your browser. To select the files you want to upload, drag and drop the file or folder, or click choose your files.",
+      "date": "12/03/23"
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "userId": 2,
+      "title": "Understanding JavaScript Object Methods",
+      "body": "JavaScript object methods are functions that are properties of an object. These methods can perform actions or manipulations on the object or its data.",
+      "date": "12/05/23"
+    },
+    {
+      "id": 3,
+      "topicId": 3,
+      "userId": 3,
+      "title": "Introduction to Web Development",
+      "body": "Web development involves creating, building, and maintaining websites. It includes aspects like front-end and back-end development, HTML, CSS, and more.",
+      "date": "12/08/23"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "postId": 3
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "postId": 2
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "JavaScript object methods"
+    },
+    {
+      "id": 2,
+      "name": "GitHub"
+    },
+    {
+      "id": 3,
+      "name": "web development"
+    },
+    {
+      "id": 4,
+      "name": "ES6 features"
+    },
+    {
+      "id": 5,
+      "name": "async programming in JavaScript"
+    },
+    {
+      "id": 6,
+      "name": "responsive web design"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript frameworks"
+    }
+  ]
+}
